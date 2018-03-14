@@ -270,12 +270,12 @@ header.masthead p {
   transform: rotate(0);
 }
 
-.adjust {
+.mb-3-adjust {
   margin-bottom: 1rem;
 }
 
 @media (min-width: 992px) {
-  .adjust {
+  .mb-3-adjust {
     margin-bottom: 0 !important;
   }
 }
