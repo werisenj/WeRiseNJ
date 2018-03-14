@@ -149,9 +149,6 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #000099;
   }
-  .adjust {
-    margin-bottom: 0 !important;
-  }
 }
 
 header.masthead {
@@ -276,3 +273,10 @@ header.masthead p {
 .adjust {
   margin-bottom: 1rem;
 }
+
+@media (min-width: 992px) {
+  .adjust {
+    margin-bottom: 0 !important;
+  }
+}
+  
