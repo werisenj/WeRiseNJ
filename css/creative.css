@@ -279,4 +279,8 @@ header.masthead p {
     margin-bottom: 0 !important;
   }
 }
+
+.pointer {
+  cursor: pointer;
+}
   
