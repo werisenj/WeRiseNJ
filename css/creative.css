@@ -149,6 +149,9 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #000099;
   }
+  .adjust {
+    margin-bottom: 1rem !important;
+  }
 }
 
 header.masthead {
