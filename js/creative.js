@@ -71,8 +71,5 @@
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
   });
-  
-  var width = $('.media-img').width();
-  $('.media-img').css({'height':width+'px'});
 
 })(jQuery); // End of use strict
