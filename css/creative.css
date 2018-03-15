@@ -290,7 +290,7 @@ header.masthead p {
 
 .media-img {
   position: relative;
-  max-width: 250px;
+  max-width: 200px;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
