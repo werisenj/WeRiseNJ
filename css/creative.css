@@ -294,7 +294,6 @@ header.masthead p {
 }
 
 .media-box:before {
-  box-sizing: border-box;
   content: "";
   display: block;
   padding-top: 100%;
