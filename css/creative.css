@@ -290,12 +290,18 @@ header.masthead p {
 
 .media-img {
   max-width: 250px;
-  padding-bottom: 250px;
+  position: relative;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.media-img:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
 }
 
 .media-1 {
