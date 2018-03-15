@@ -288,14 +288,6 @@ header.masthead p {
   cursor: pointer;
 }
 
-.media-img {
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .media-box {
   position: relative;
   max-width: 250px;
@@ -305,6 +297,19 @@ header.masthead p {
   content: "";
   display: block;
   padding-top: 100%;
+}
+
+.media-img {
+  position:  absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .media-1 {
