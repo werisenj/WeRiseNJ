@@ -73,10 +73,11 @@
   });
   
   $('.toggle-text').click(function() {
-    if($(this).hasClass('collapsed')) {
-       $(this).text("Show Less");
-    } else {
+    $(this).toggleClass('toggle-text')
+    if($(this).hasClass('toggle-text')) {
        $(this).text("Show More");
+    } else {
+       $(this).text("Show Less");
     }
   });
 
