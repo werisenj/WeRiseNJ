@@ -72,11 +72,11 @@
     }
   });
   
-  $('.show-more').click(function() {
-    if($(this).hasClass('show')) {
-       $(this).text("Show More");
-    } else {
+  $('.toggle-text').click(function() {
+    if($(this).hasClass('collapsed')) {
        $(this).text("Show Less");
+    } else {
+       $(this).text("Show More");
     }
   });
 
