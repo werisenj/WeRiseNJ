@@ -71,5 +71,13 @@
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
   });
+  
+  $('.show-more').click(function() {
+    if($(this).hasClass("show")) {
+       $(this).text("Show Less");
+    } else {
+       $(this).text("Show More");
+    }
+  });
 
 })(jQuery); // End of use strict
