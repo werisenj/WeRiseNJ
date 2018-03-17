@@ -74,9 +74,9 @@
   
   $('.show-more').click(function() {
     if($(this).hasClass('show')) {
-       $(this).text("Show Less");
-    } else {
        $(this).text("Show More");
+    } else {
+       $(this).text("Show Less");
     }
   });
 
